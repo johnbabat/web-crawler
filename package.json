@@ -1,0 +1,22 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "crawler": "./bin/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "jest-fetch-mock": "^3.0.3"
+  }
+}
